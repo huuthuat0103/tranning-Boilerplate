@@ -1,0 +1,133 @@
+body {
+  background-color: #fff;
+  font-family: Source Sans Pro, Myriadpro;
+.animated {
+      -webkit-animation-duration: 1.5s;
+      animation-duration: 1.5s;
+ }
+}
+
+.top-header {
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 10px 0;
+  font-size: 12px;
+  color: $color-content;
+  background-color: #f5f7fa;
+  border-bottom: 1px solid #e6e9ed;
+
+  i {
+    padding-right: 10px;
+    color: $color-content;
+    cursor: pointer;
+
+    &:hover {
+      color: #000;
+    }
+  }
+
+  .left {
+    float: left;
+    display: flex;
+
+    .gmail-info {
+      margin-right: 20px;
+    }
+  }
+
+  .right {
+    float: right;
+
+    .list-solial {
+      display: flex;
+
+      .solial-item {
+        padding-left: 20px;
+
+      }
+    }
+  }
+}
+
+.navbar {
+  width: 100%;
+  padding: 30px 0;
+  background-color: transparent !important;
+  font-size: 15px;
+
+  .logo {
+    img {
+      height: 40px;
+      width: auto;
+    }
+  }
+
+  .list-menu {
+    margin-left: 50px;
+    box-sizing: border-box;
+    position: relative;
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: $color-content; 
+          font-size: 15px;
+          font-weight: bold;
+          padding-bottom: 10px;
+          box-sizing: border-box;
+          transition: 0.4s all;
+          padding-bottom: 20px;
+          padding-top: 20px;
+          border-bottom: 4px solid #fff;
+          font-family: cursive;
+
+          &:hover {
+            color: green;
+            border-bottom: 4px solid green;
+            padding-bottom: 10px;
+            text-decoration: line-through !important;
+            padding-top: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .form-search {
+    input {
+      margin-right: 0;
+      border-radius: 20px;
+      width: 0;
+      border: none;
+      padding: 0;
+      transition: 0.5s;
+
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.25);
+      }
+    }
+
+    button {
+      border: none;
+
+      i {
+        color: $color-content;
+      }
+
+      &:hover {
+        background-color: transparent;
+
+        i  {
+          color: #000;
+        }
+      }
+    }
+
+     &:hover input {
+        width: 200px;
+        border: 1px solid #ccc;
+        padding: 5px;
+      }
+  }
+}

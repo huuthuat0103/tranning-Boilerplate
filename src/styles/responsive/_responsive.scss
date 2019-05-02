@@ -1,0 +1,144 @@
+@media only screen and (max-width: 768px) {
+  .navbar {
+    .list-menu {
+      margin-left: 0 !important;
+      text-align: center;
+      margin-top: 20px;
+
+      .nav-link {
+        padding-top: 0!important;
+      }
+    }
+
+    .form-search {
+      button {
+        margin: 0 auto;
+      }
+
+      &:hover input {
+        width: 100%;
+        border: 1px solid #ccc;
+        padding: 5px;
+      }
+    }
+  }
+
+  .top-header .left span {
+    display: none;
+  }
+
+  .site-blog-cover {
+
+  }
+
+  .beautiful-clean {
+    .title-beautiful-clean {
+      h2 {
+        font-size: 25px;
+      } 
+    }
+
+    .list-beautiful-clean {
+      .items {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .checkout-site {
+    .list-checkout-site {
+      .card {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  .slick-slide img {
+    width: 100%;
+  }
+
+  footer {
+    .copyright {
+      p {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+    .get-in-touch {
+      margin-top: 20px;
+    }
+    .updates {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1036px) and ( max-width: 1150px) {
+  .site-blog-cover {
+    .example {
+      .caption {
+        bottom: 5% !important;
+        top: auto !important;
+
+        h2 {
+          font-size: 40px !important;
+        }
+
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and ( max-width: 1035px) {
+  .site-blog-cover {
+    .example {
+      .item {
+        .caption {
+          bottom: 0 !important;
+          top: auto !important;
+
+          h2 {
+            font-size: 30px !important;
+          }
+
+          p {
+            font-size: 15px;
+          }
+
+          button{
+            margin-top: 20px !important;
+            margin-bottom: 20px !important;
+          }
+        }
+
+        &:nth-child(2) {
+          .text {
+            text-align: left;
+            p {
+              width: 80% !important;
+            }
+          }
+          button {
+            margin: 20px 0 !important;
+          }
+        }
+
+        &:nth-child(3) {
+          .text {
+            text-align: right !important;
+
+            p {
+              padding-left: 30% !important;
+            }
+          }
+          button {
+            margin: 20px 0 20px auto !important;
+          }
+        }
+      }
+    }
+  }
+}
